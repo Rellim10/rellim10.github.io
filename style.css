@@ -1,0 +1,46 @@
+body {
+    background-color:blanchedalmond;
+}
+
+div.nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: burlywood;
+}
+div.nav li {
+    float:left;
+}
+div.nav a {
+    display:block;
+    color:firebrick;
+    text-align:center;
+    padding:8px 12px;
+    text-decoration:none;
+}
+div.nav a:hover {
+    background-color:peachpuff;
+}
+
+p.warning{
+    font-weight:bold;
+    text-decoration: underline;
+    color:red;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr {
+    border: 2px solid brown;
+}
+th {
+    font-style: oblique;
+    border-left: 2px solid brown;
+}
+td {
+    text-align:center;
+    border-left: 2px solid brown;
+}
